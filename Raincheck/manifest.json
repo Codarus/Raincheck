@@ -1,0 +1,14 @@
+{
+	"name": "Raincheck",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "save the urls of open tabs in a text file",
+	"browser_action": {
+		"default_icon": "raincheck.png",
+		"default_title": "Raincheck tab saver",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+    "tabs"
+  ]
+}
