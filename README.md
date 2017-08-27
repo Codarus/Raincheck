@@ -5,6 +5,7 @@ This app collects and labels currently open URLs, organizes them into a uniquely
 This allows for the instant "bookmarking" of several pages which a user may then browse at their leisure.
 
 #TODO#
+
 Add custom name functionality
 Add settings page
 
