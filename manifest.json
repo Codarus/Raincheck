@@ -1,6 +1,6 @@
 {
 	"name": "Raincheck",
-	"version": "0.1",
+	"version": "1.1",
 	"manifest_version": 2,
 	"description": "save the urls of open tabs in a text file",
 	"browser_action": {
@@ -10,5 +10,6 @@
 	},
 	"permissions": [
     "tabs"
-  ]
+	],
+	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }
